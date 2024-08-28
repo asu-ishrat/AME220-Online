@@ -19,3 +19,17 @@ The goal of this repo is to provide you all the information you would need to be
 * Programming the Cloud: https://book.programmingthecloud.com/
 * W3 Schools: https://www.w3schools.com/
 * Figma: https://www.figma.com/ 
+
+## General Grading Rubric
+
+Homework Grading Rubric: 
+
+Each assignment will provide clear goals for students to deliver.   Below is a general rubric to provide some guidelines, but each assignment will show a grading rubric that is being applied to in.  In general, the breakdown is: 
+
+1 point: Student has provided a rough sketch in Figma of their approach to the homework assignment 
+2 points: Student has submitted code
+2 points: Student has shared their code with their peers for review 
+0-5 points: Student’s assignment has demonstrated deliverables  of the assignment
+
+
+
