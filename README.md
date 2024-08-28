@@ -1,10 +1,21 @@
-# ame220 iCourse/oCourse
+# AME220: Online (ASU Online + iCourse) 
+## The Important Stuff 
+### Office Hours + Zoom:  
+Wednesdays 11 am - 12 pm on Zoom: https://asu.zoom.us/j/4521173487 
+**or**
+https://calendly.com/ishrats/office-hours-chat 
 
-Zoom (office hours): https://asu.zoom.us/j/6549858433 (M/W 9:30-10:30)
+## About this Repo
 
-Syllabus: https://github.com/tejaswigowda/ame220-oCourse-iCourse/blob/main/AME%20220%20(iCourse_oCourse).pdf
+The goal of this repo is to provide you all the information you would need to be successful in this course.  This includes example files, assignments and lecture documentation. 
 
-Slides: https://docs.google.com/presentation/d/1hod8mcm1wtw6uk-M3pQjSVaR4lkSLCLBan1KmHaWVIA/edit?usp=sharing
+## Syllabus 
 
 
-------
+
+## Important Links 
+
+* Download VSCode: https://code.visualstudio.com/ 
+* Programming the Cloud: https://book.programmingthecloud.com/
+* W3 Schools: https://www.w3schools.com/
+* Figma: https://www.figma.com/ 
