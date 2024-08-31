@@ -17,7 +17,8 @@ The goal of this repo is to provide you all the information you would need to be
 
 * Download VSCode: https://code.visualstudio.com/ 
 * Programming the Cloud: https://book.programmingthecloud.com/
-* W3 Schools: https://www.w3schools.com/
+* W3 Schools: https://www.w3schools.com/[AME220 Syllabus.pdf](https://github.com/user-attachments/files/16823099/AME220.Syllabus.pdf)
+
 * Figma: https://www.figma.com/ 
 
 ## General Grading Rubric
@@ -31,6 +32,8 @@ Each assignment will provide clear goals for students to deliver.   Below is a g
 * 2 points: Student has shared their code with their peers for review 
 * 0-5 points: Student’s assignment has demonstrated deliverables  of the assignment
 
-
+  
+# Syllabus 
+[Uploading AME220 Syllabus.pdf…]()
 
 
