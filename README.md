@@ -1,7 +1,7 @@
 # AME220: Online (ASU Online + iCourse) 
 ## The Important Stuff 
 ### Office Hours + Zoom:  
-Wednesdays 11 am - 12 pm on Zoom: https://asu.zoom.us/j/4521173487 
+Wednesdays 11 am - 12 pm  (**Arizona Time**) on Zoom: https://asu.zoom.us/j/4521173487 
 **or**
 https://calendly.com/ishrats/office-hours-chat 
 
@@ -34,6 +34,6 @@ Each assignment will provide clear goals for students to deliver.   Below is a g
 
   
 # Syllabus 
-[Uploading AME220 Syllabus.pdf…]()
+https://github.com/asu-ishrat/AME220-Online/blob/main/AME220%20Syllabus.pdf 
 
 
