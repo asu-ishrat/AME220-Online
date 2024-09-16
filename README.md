@@ -9,10 +9,6 @@ https://calendly.com/ishrats/office-hours-chat
 
 The goal of this repo is to provide you all the information you would need to be successful in this course.  This includes example files, assignments and lecture documentation. 
 
-## Syllabus 
-
-
-
 ## Important Links 
 
 * Download VSCode: https://code.visualstudio.com/ 
