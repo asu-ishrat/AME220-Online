@@ -1,0 +1,19 @@
+
+Rubric: 
+
+1 point: A screenshot of a word doc or Figma about what you want to implement (extra credit for Figma)
+2 points: Student has submitted code
+2 points: Student has shared their code with their peers for review
+0-5 points: Student’s assignment has demonstrated deliverables of the assignment
+
+
+Update your index.html file with the following (1 pt each): 
+
+1.  Create a hierarchy in your porfolio page with at least two parent SECTIONS and children components  
+2.  Create a navigation component 
+3.  Create a contact form (does not need to email)
+4.  Stylize h1, h2, h3 with font, font size and color
+5.  Stylize links 
+
+save this file as index2.html (!IMPORTANT!)
+

@@ -1,0 +1,22 @@
+Assignment #3 
+
+Rubric: 
+
+1 point: A screenshot of a word doc or Figma about what you want to implement (extra credit for Figma)
+2 points: Student has submitted code
+2 points: Student has shared their code with their peers for review
+0-5 points: Student’s assignment has demonstrated deliverables of the assignment
+
+
+Create a stylesheet for your website 
+
+1. Make your website mobile responsive (use 430 x 932 (iPhone 14 Pro Max)) (1pts)
+   - Hint (use em or rem, width/height in vw/vh)
+2. Move your inline styling to stylesheet  (1pt)
+3. Positioning stylize links a, a:active, a:hover etc... and style BY CLASS (1pts)
+4. Add fonts, colors, background images, bullet styles etc... (1pt)
+5. Add paddings and margins to components 
+
+ EXTRA CREDIT:  create animation in the page (1pts)
+
+save this file as index3.html (! IMPORTANT !)
