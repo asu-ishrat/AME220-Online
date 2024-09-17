@@ -1,0 +1,22 @@
+
+Rubric: 
+
+1 point: A screenshot of a word doc or Figma about what you want to implement (extra credit for Figma)
+2 points: Student has submitted code
+2 points: Student has shared their code with their peers for review
+0-5 points: Student’s assignment has demonstrated deliverables of the assignment
+
+Create a webpage with the following: 
+
+* Declared Document Type, html, head, body tags   (1pt)
+* The title of the webpage can be anything "[Your Name] Portfolio"    (1pt)
+* Clearly defined headers (h1, h2 etc...) (1pt)
+* The below content (2pts)
+
+1. A section with the class name 'about-me'   (.5pt)
+2. A section with an id of 'goals'  goal about your goals  (.5pt)
+3. A link to a website (any website) that opens in a separate tab or window (.5pt)
+4. A picture  (.5pt)
+
+Save the file as "index.html" in your github pages repo 
+
