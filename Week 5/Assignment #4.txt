@@ -1,0 +1,38 @@
+Assignment #4
+
+Rubric: 
+
+1 point: A screenshot of a word doc or Figma about what you want to implement (extra credit for Figma)
+2 points: Student has submitted code
+2 points: Student has shared their code with their peers for review
+0-5 points: Student’s assignment has demonstrated deliverables of the assignment
+
+
+Include a Script or a Simple API into your website. This assignment is meant to be a precursor to your final assignment to get you thinking about Assignment #5 - which is the pitch for your Final Project. 
+
+The Final Project is all about interactivity.   Please use the handout called "weather.js" and add the following: 
+
+1.  It greets the user with their name (1pt)
+2.  Shows their location with map (1pt)  https://www.w3schools.com/html/html5_geolocation.asp + https://leafletjs.com/  
+3. Shows the user's local time (1pt)
+4.  Shows them the weather in their location (2pt) hint use: https://open-meteo.com/en/docs with the geolocation that you've just stored.  Ask the user if they want to see a week forcast  
+4.  Based on weather show icons  (https://fonts.google.com/icons) (1pt)
+
+
+EXTRA CREDIT (2pts): 
+
+Using Javascript, add some interactivity (button fades etc)
+
+Look here for inspiration: 
+
+https://www.framer.com/motion/
+https://animejs.com/ 
+
+Please feel free to reach out! 
+
+
+
+If you've followed along the lecture, we have already set up the HTML for this. We just need to update the Javascript 
+
+
+  
