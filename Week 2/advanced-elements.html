@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Sample Elements</title>
+    </head>
+    <body>
+        <header><h1>List of Things We Are Going To Cover</h1></header>
+        <p></p>
+        <h2>Lists</h2>
+
+        <!-- These lists do not need to be in a specific order. They are bulleted lists. -->
+        <h3>Unordered List</h3>
+
+        <ul>
+            <li>Unordered Lists</li>
+            <li>Orded Lists</li>
+            <li>Divs, Spans</li>
+            <li>Tables</li>
+            <li>Forms (Inputs)</li>
+        </ul>
+
+        <!-- Ordered Lists are Lists that have (you guessed, an order or numbers, letters ETC)-->
+        <h3>Ordered Lists</h3>
+        <ol>
+            <li>Comments</li>
+            <li>Other Cool Things</li>
+            <li>This will be a list!</li>
+        </ol>
+
+        <!--Divs are just simple containers that can house multiple elements, and can be both children and parent elements.-->
+        <div style="background-color: black; color: white;">
+            Hi I'm the parent!
+
+            <div>
+                I'm the child!
+            </div>
+        </div>
+
+        <!--spans are like div but only for the content itself, and is only a child element-->
+
+        <p><span style="background-color: firebrick; color: white;">Hi, I'm a span!</span></p>
+
+        <!--Tables is an element that has rows and has columns-->
+
+        <h3>Tables!</h3>
+        <table style="width: 500px; border-style: solid; border-width: 1px;">
+            <!--thead is a semantic header-->
+            <thead>
+                <tr>
+                    <th>A</th> <!--th tag is the tag the defines column header-->
+                    <th>B</th> 
+                    <th>C</th>
+
+
+                </tr>
+            </thead>
+
+            <tbody>
+            <tr> <!--tr represents table row-->
+                <td> <!--represents table data-->
+                    Cell 1
+                </td>
+
+                <td>
+                    Cell 2
+                </td>
+
+                <td>
+                    Cell 3
+                </td>
+            </tr>
+
+           <tr>
+            <td>Cell B-1</td>
+            <td>Cell B-2</td>
+            <td>Cell B-3</td>
+            <td>Cell B-4</td>
+
+           </tr>
+           </tbody>
+        </table>
+
+        <h3>Inputs and Forms</h3>
+<!-- 
+                    <input type="button"> -- Creates a button
+            <input type="checkbox"> -- Creates a checkbox 
+            <input type="color"> -- Allows user to choose a color 
+            <input type="date"> - Allows user to select a date 
+            <input type="datetime-local"> -- allows user to select a date and TIME
+            <input type="email"> -- allows user to input an email 
+            <input type="file"> -- allows user upload a file 
+            <input type="image"> -- allows uer to upload an image 
+            <input type="month"> - Add a month 
+            <input type="number"> - Phone number 
+            <input type="password"> - passwords 
+            <input type="radio"> - Radio buttons 
+            <input type="range"> - A range of values 
+            <input type="reset"> - Rest the form 
+            <input type="search"> - Search the form 
+            <input type="submit"> - Submit 
+            <input type="tel">
+            <input type="text">
+            <input type="time">
+            <input type="url">
+            <input type="week"> -->
+
+            <form>
+                <label>Name: </label> 
+                <p><input type="text"></p>
+                <p><label>URL: </label></p>
+               <p><input type="url"></p>
+               <label>Favorite Color</label>
+               <input type="color">
+               <input type="button" value="Press Me">
+            </form>
+    </body>
+</html>
