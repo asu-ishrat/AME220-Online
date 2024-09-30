@@ -1,6 +1,6 @@
 Midterm
 
-Grading Rubric 
+Grading Rubric 
 
 1 point:  Student submits a sketch of their approach 
 1 point:  Student submits assignment 
@@ -10,25 +10,26 @@ Grading Rubric
 
 
 Midterm Project
- 
-The goal of this assignment is to determine your level of understanding of HTML and CSS.  That said, it's a good chance to flex what you have learned and to gain some expertise with designing your own expertise.    The web app must not be longer than 3 pages 
+ 
+The goal of this assignment is to determine your level of understanding of HTML and CSS.  That said, it's a good chance to flex what you have learned and to gain some expertise with designing your own expertise.    The web app must not be longer than 3 pages 
 
-Create a web app with multiple STATIC pages. 
+Create a web app with multiple STATIC pages. 
 
-1. Follow the correct HTML structure 
-2. Have a LINKED CSS 
-3. Mobile Responsive 
+1. Follow the correct HTML structure 
+2. Have a LINKED CSS 
+3. Mobile Responsive 
 4. Have multiple components (sections, media, divs etc...)
+5. Each component should be represented in the CSS. 
 
-These are the base requirements for this assignment. 
+These are the base requirements for this assignment. 
 
-7 Points: Implementation of multiple CSS / HTML Components 
+7 Points: Implementation of multiple CSS / HTML Components 
 
-Inspiration: 
+Inspiration: 
 
-HTML: https://www.w3schools.com/html/default.asp 
+HTML: https://www.w3schools.com/html/default.asp 
 CSS: https://www.w3schools.com/css/default.asp
 
-For maximum points in this section, think about websites that you visit.  Stylize buttons, links, lists, divs, do they have borders? Rounded images? What about their navigation bars? How do they use pseudoclasses to create cool interactions?  Do they use a Google Font API? 
+For maximum points in this section, think about websites that you visit.  Stylize buttons, links, lists, divs, do they have borders? Rounded images? What about their navigation bars? How do they use pseudoclasses to create cool interactions?  Do they use a Google Font API? 
 
-Extra Credit 2pts: include ANY javascript into this. Alerts, timezone, location APIs? 
+Extra Credit 2pts: include ANY javascript into this. Alerts, timezone, location APIs? 
