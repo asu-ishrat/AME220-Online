@@ -2,11 +2,11 @@ Midterm
 
 Grading Rubric 
 
-1 point:  Student submits a sketch of their approach 
-1 point:  Student submits assignment 
-1 point:  Student participants in code review 
-3 points: Student demonstrates the below criteria 
-4 points: Student showcases creativity in applying CSS and HTML 
+1 point:  Student submits a sketch of their approach 
+1 point:  Student submits assignment 
+1 point:  Student participants in code review 
+5 points: Student demonstrates the below criteria 
+7 points: Student showcases creativity in applying CSS and HTML 
 
 
 Midterm Project
