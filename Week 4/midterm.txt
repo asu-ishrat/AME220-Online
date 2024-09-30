@@ -22,7 +22,7 @@ Create a web app with multiple STATIC pages.
 
 These are the base requirements for this assignment. 
 
-4 Points: Implementation of multiple CSS / HTML Components 
+7 Points: Implementation of multiple CSS / HTML Components 
 
 Inspiration: 
 
