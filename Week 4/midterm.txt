@@ -6,7 +6,13 @@ Grading Rubric 
 1 point:  Student submits assignment 
 1 point:  Student participants in code review 
 5 points: Student demonstrates the below criteria 
-7 points: Student showcases creativity in applying CSS and HTML 
+7 points: Student showcases creativity in applying CSS and HTML. Some examples include: 
+
+* Unified style guide across multiple elements, psuedo-elements 
+* The use of semantic elements to clearly define areas such as videos, articles, images and media 
+* The use of buttons, inputs and other CSS elements applied to it 
+
+Basically - did you put in effort into this project. 
 
 
 Midterm Project
