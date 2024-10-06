@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Siggy the Kitty</title>
+    <style>
+
+        /*  Notes for how to select different things in an HTML documents
+
+        NEVER USE THE UNIVERSAL SELECTOR IF YOU ARE USING DIFFERENT COLORS, OR FONTS
+        the universal selector sets the DEFAULT behavior for CSS. 
+
+        * {
+        
+        
+        }
+
+            element selectors 
+
+            element {
+                property: value;
+            }
+
+            id selectors 
+            #id-name{
+                property: value;  
+            }
+
+            class selectors 
+            .class-name { 
+                property: value; 
+            
+            }
+
+            descendent OR CHILDREN selectors 
+
+            parent-selector > child-selector 
+
+            { 
+                property: value; 
+            }
+
+            pseduoclass selector 
+            list of types of pseudoclasses: https://www.w3schools.com/css/css_pseudo_classes.asp 
+
+            element,id,class:STATE {
+                property: value; 
+            }
+
+           element,id,class::TYPE{
+
+                property: value; 
+           
+           }
+
+
+
+        
+        */
+
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+        body {
+            background-color: #000000;
+        }
+
+        .container { 
+            width: 798px; 
+        }
+
+        img {
+            height: 400px; 
+            width: 400px; 
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .content {
+            width: inherit;
+            height: 738px;
+            background-color: #E2C800;
+            border-radius: 41px 41px 0px 0px;
+            color: #000000;
+        }
+
+        .container > nav{
+            background-color: #E2C800;
+            color: #000000 
+        }
+
+        a button {
+            background-color: #000000;
+          
+            width: 183px;
+            height: 87px;
+            border-radius: 25px;
+            text-align: center;
+            border-color: #000000;
+            border-width: 0px;
+            border-style: none;
+
+            
+        }
+
+        a button {
+            color: #FFFFFF; 
+            font-family: "Playfair Display", serif;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 400;
+            text-transform: lowercase;
+            text-decoration: none;
+        }
+
+ 
+
+         a:hover button {
+
+            background-color: #E2C800;
+            color: #000000; 
+            font-family: "Playfair Display", serif;
+            font-size: 20px; 
+            font-style: italic; 
+            font-weight: 800; 
+            letter-spacing: 4px;
+            text-decoration: none; 
+            border-color: #000000;
+            border-width: 1px;
+            border-style: solid;
+        }
+
+        #siggy {
+            background-color: inherit; 
+            color: #000000;
+            font-family: "Playfair Display", serif;
+            font-size: 64px;
+            font-style: italic;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+        #sectionHeadings{
+
+            background-color: #E2C800; 
+            color: #000000;
+            font-family: "Playfair Display", serif;
+            font-size: 48px;
+            font-style: italic;
+            font-weight: 800;
+            line-height: normal;
+
+        }
+
+        #about { 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #about::first-letter{
+            font-family: "Playfair Display", serif;
+            font-size: 48px;
+            font-weight: 800;
+            font-style: oblique;
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+        <img src="./updatedSiggy.png" id="siggy-picture" alt="A picture of a black cat">
+        <nav id="navigation">
+
+            <a href="#about"><button>About</button></a>
+            <a href="#why"><button>Why</button></a>
+            <a href="#contact"><button>Contact</button></a>
+        
+        </nav>
+        <section class="content">
+
+            <!--For more information about how to use Anchors or Bookmarks in Links: 
+            https://www.w3schools.com/tags/tag_a.asp
+            -->
+           
+
+            <header id="siggy">Siggy the Singularity</header>
+            
+            <p id="sectionHeadings">about siggy</p>
+
+            <section id="about">
+
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+            </section>
+
+            <section id="why">
+
+            </section>
+
+            <section id="contact"
+
+      
+
+
+        </section>
+
+    </section>
+
+</body>
+
+</html>
