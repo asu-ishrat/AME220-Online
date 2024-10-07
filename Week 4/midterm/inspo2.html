@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Inspo #2</title>
+     <!--This tag below asks for the viewport! -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap');
+
+        *{
+            font-size: 16px; 
+        }
+        body{
+
+            /* a cool website to generate patterns from: https://www.magicpattern.design/tools/css-backgrounds
+            i used this site to generate the css below*/
+            background-color: #000000;
+            background-image: radial-gradient(#ffffff 0.5px, #000000 0.5px);
+            background-size: 10px 10px;
+            background-repeat: repeat;
+
+        }
+
+        header {
+
+            margin: 0px;
+
+        }
+        header > img{
+            
+            width: 100vw; 
+            height: 600px; 
+            object-fit: cover;
+  
+        }
+
+        section{
+            margin-right: auto;
+            margin-left: auto; 
+            margin-top: 100px; 
+            margin-bottom: 100px;
+        }
+
+
+        section > div {
+            border-radius: 25px; 
+            background-color: #ffffff; 
+            width: 75vw; 
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 25px; 
+            margin-right: auto;
+            margin-left: auto; 
+            margin-top: 50px; 
+            margin-bottom: 50px;
+            
+        }
+
+   
+
+    
+        h1{
+            font-family: "Playwrite CZ", cursive;
+            color: black; 
+            font-size: 2.5rem; 
+            font-weight: 400; 
+            border-style: double;
+            border-bottom-color: #000000;
+            border-bottom-width: 5px;
+            border-top-style: none;
+            border-right-style: none;
+            border-left-style: none;
+
+        }
+
+        h2{
+            font-family: "Playwrite CZ", cursive;
+            color: black; 
+            font-size: 1.75rem; 
+            font-weight: 400; 
+        }
+
+        figure{ 
+            background-color: rgb(212, 212, 212);
+            max-width: 400px; 
+          
+        }
+
+        figure > img
+
+        {
+            max-width: 400px; 
+            object-fit: cover;
+        }
+
+        figure > figcaption {
+            font-size: .75rem;
+            font-weight: bolder;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+            max-width: 400px;
+        }
+
+        #mobile{
+            display: none;
+        }
+
+       
+
+        quote {
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem; 
+            color: rgba(255, 0, 119, 0.725);
+            padding: 50px;
+
+
+        }
+
+        quote::before{
+            content: " ❝ "; 
+        }
+
+        quote::after{
+            content: " ❞ "; 
+        }
+
+        a {
+         
+            color: black; 
+            font-style: italic;
+            letter-spacing: 2px;
+            text-decoration: underline;
+            
+        }
+
+        a:hover{
+            text-decoration: none;
+            
+        }
+
+        a:visted {
+            color: red; 
+            font-weight: bolder;
+        }
+
+       
+    
+
+
+     </style>
+</head>
+<body>
+
+    <header>
+        <img src="./assets/florian-klauer-mk7D-4UCfmg-unsplash.jpg"/>
+    </header>
+
+    <div id="mobile">
+        <img src="./assets/florian-klauer-mk7D-4UCfmg-unsplash.jpg"/ id="mobile">
+    </div>
+    <section id="about">
+        <div>
+            <h1>just a sample midterm project</h1>
+            <p>I just want to say how proud of my students I am! This is the midterm and it can get really scary! This is just a one page example of how simple a midterm can look</p>
+            <p>Photo by <a href="https://unsplash.com/@florianklauer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Florian Klauer</a> on <a href="https://unsplash.com/photos/black-fayorit-typewriter-with-printer-paper-mk7D-4UCfmg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
+
+            <p>this page is scrollable, and if you view it in mobile - it's actually mobile responsive! We are using vw/vh <strong>and</strong> relative sizes. If you notice the <code>@media</code>, you see the only thing that changes is the <code>rem</code>, which is the relative sizing for the document!</b></p>
+        </div>
+    </section>
+
+
+    <section id="section2">
+        <div>
+            <h2>just another section</h1>
+                <article>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </article>
+
+                <figure>
+                    <img src="./assets/annie-spratt-38yKQLL11d8-unsplash.jpg"/>
+                <figcaption>a caption for the picture <br/>
+                    Photo by <a href="https://unsplash.com/@anniespratt?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Annie Spratt</a> on <a href="https://unsplash.com/photos/white-oriental-lily-flower-38yKQLL11d8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </figcaption>
+                
+        </div>
+
+        <div>
+            <quote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </quote>
+        </div>
+    </section>
+    
+</body>
+</html>

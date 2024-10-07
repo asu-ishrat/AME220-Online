@@ -1,0 +1,194 @@
+* {
+    cursor: crosshair;
+}
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #1E2019;
+    
+}
+
+
+
+.container > div{
+    width: 100vw; 
+    height: 100vh; 
+    margin: 0px; 
+    padding: 0px; 
+}
+
+#page1{
+
+    width: initial; 
+    height: inherit; 
+
+
+}
+
+/* this styles the video 
+video source: https://www.pexels.com/video/satellite-docking-in-a-space-shuttle-854223/*/
+#space{
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover;
+    z-index: -10; 
+}
+
+/* this is the overlay that creates a readible screen*/ 
+#overlay{
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(0,0,0,.5);
+
+    /* this can also be done by stating: 
+    
+    background-color: #00000 (black);
+    opacity: .5;
+    learn more about opacity here: https://www.w3schools.com/css/css_image_transparency.asp 
+    */ 
+    z-index: 0;
+}
+
+#desktop{
+    margin: 0;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
+#mobile{
+    margin: 0;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    display: none; 
+    margin-top: 10spx;
+    padding: 50px;
+    font-family: "VT323", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white; 
+    font-size: 36px;
+
+    z-index: 5; 
+}
+
+/* https://www.w3schools.com/howto/howto_css_center-vertical.asp for guidance 
+the transform property: https://www.w3schools.com/cssref/css3_pr_transform.php  */ 
+header{
+    width: 100%;
+    font-family: "Major Mono Display", monospace;
+    color: #ffff; 
+    font-size: 72px; 
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    /* because margin here is set to 0, it will not overwrite the position! */
+ 
+
+ 
+}
+
+#final{
+    margin-top: 10spx;
+    padding: 50px;
+    font-family: "VT323", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white; 
+    font-size: 36px;
+
+    z-index: 5; 
+}
+
+/* I just learned about the Initial Letter Property!
+https://developer.mozilla.org/en-US/docs/Web/CSS/initial-letter*/
+
+#final::first-letter{
+    padding-right: 8px;
+    -webkit-initial-letter: 4;
+    initial-letter: 4;
+    
+
+}
+
+/*  learn more about float: https://www.w3schools.com/css/css_float.asp */ 
+
+button { 
+    background-color: rgba(255, 255, 255, 0);
+    border-style: solid;
+    border-width: 5px;
+    border-color: #fff;
+    border-radius: 10px;
+    float: right; 
+}
+
+a {
+    font-family: "VT323", system-ui;
+    font-size: 18pt;
+    color: white; 
+    text-decoration: none;
+
+}
+
+button:hover {
+  background-color: #fff;
+  transition-duration: 1s;
+    
+}
+
+a:hover{
+    color: black; 
+    transition-duration: 1s;
+}
+
+
+/* states that if a screen is smaller than 480 pixels to change*/ 
+
+@media only screen and (max-width: 1030px){
+    body{
+        overflow-y: auto;
+        overflow-x: auto;
+        background-color: #1E2019;
+        
+    }
+    
+    #space{
+ 
+        height: 100vh; 
+        object-fit: cover;
+        z-index: -10; 
+    }
+
+    #overlay{
+        position: absolute; 
+        top: 0px; 
+        left: 0px; 
+        height: 100vh; 
+        background-color: rgba(0,0,0,.5);
+    
+        /* this can also be done by stating: 
+        
+        background-color: #00000 (black);
+        opacity: .5;
+        learn more about opacity here: https://www.w3schools.com/css/css_image_transparency.asp 
+        */ 
+        z-index: 0;
+    }
+
+    #desktop{
+        display: none; 
+    }
+
+    #mobile{
+        display:block; 
+    }
+}
