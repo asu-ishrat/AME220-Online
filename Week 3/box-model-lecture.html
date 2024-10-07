@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Box Model Lecture Video</title>
+    <style>
+        /*  Notes for how to select different things in an HTML documents
+
+        NEVER USE THE UNIVERSAL SELECTOR IF YOU ARE USING DIFFERENT COLORS, OR FONTS
+        the universal selector sets the DEFAULT behavior for CSS. 
+
+        * {
+        
+        
+        }
+
+            element selectors 
+
+            element {
+                property: value;
+            }
+
+            id selectors 
+            #id-name{
+                property: value;  
+            }
+
+            class selectors 
+            .class-name { 
+                property: value; 
+            
+            }
+
+            descendent OR CHILDREN selectors 
+
+            parent-selector > child-selector 
+
+            { 
+                property: value; 
+            }
+
+            pseduoclass selector 
+            list of types of pseudoclasses: https://www.w3schools.com/css/css_pseudo_classes.asp 
+
+            element,id,class:STATE {
+                property: value; 
+            }
+
+           element,id,class::TYPE{
+
+                property: value; 
+           
+           }
+
+
+
+        
+        */
+
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+        body {
+            background-color: #000000;
+            margin: 0px; 
+            position: absolute;
+            top: 0px; 
+            left: 0px; 
+            width: 100%;
+        }
+
+        .container {
+            position: absolute; 
+            top: 0px; 
+            left: 0px; 
+            width: 70%;
+            background-color: red;
+            padding: 100px; 
+            height: 100%;
+            z-index: -999999;
+        
+
+
+        }
+
+        .container > div  {
+
+            width: 75%; 
+            background-color: white;
+            border-style: solid;
+            border-color: aqua;
+            border-width: 10px;
+            padding: 50px;
+            margin: 50px;
+              
+        }
+
+        /* positions itself absolutely within the parent element to the refernence of top, bottom, left, right etc... Margins are EXCLUDED from this calculation  */
+        #absolute{
+            position: absolute; 
+            top: 0px; 
+            left: 0px;
+            background-color: darkmagenta;
+            z-index: -2;
+
+        }
+
+        /*fixed works like absolute, where it positions itself based on the parent. but it does not move as the user scrolls*/
+
+        #fixed{
+
+            position: fixed; 
+            background-color: brown;
+
+
+        }
+
+        /* Sticky */ 
+
+        #sticky{
+            position: sticky;
+            top: 50%; 
+            background-color: cadetblue;
+
+        }
+
+
+
+
+
+
+
+        img {
+
+            height: 400px;
+            width: 400px;
+            object-fit: cover;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 10px;
+            border-color: limegreen;
+            position: absolute;
+            top: 39px;
+            left: 215px;
+            z-index: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+  <!--       <div id="absolute">
+            <p>Parturient lacus aenean consequat ad nisi maximus. Consequat justo nascetur faucibus, libero eros
+                sociosqu. Est amet torquent hendrerit augue accumsan ut ac duis. Nec aliquet vulputate turpis, sapien
+                facilisis purus laoreet. Ut consectetur volutpat cursus phasellus elit consectetur. Dapibus nostra
+                ornare integer; sodales congue proin.</p>
+            </div>
+ -->
+
+            <img src="updatedSiggy.png"/>
+
+                <div id="absolute">
+                    <p>Parturient lacus aenean consequat ad nisi maximus. Consequat justo nascetur faucibus, libero eros
+                        sociosqu. Est amet torquent hendrerit augue accumsan ut ac duis. Nec aliquet vulputate turpis,
+                        sapien facilisis purus laoreet. Ut consectetur volutpat cursus phasellus elit consectetur.
+                        Dapibus nostra ornare integer; sodales congue proin.
+                    </p>
+                    <p>Parturient lacus aenean consequat ad nisi maximus. Consequat justo nascetur faucibus, libero eros
+                        sociosqu. Est amet torquent hendrerit augue accumsan ut ac duis. Nec aliquet vulputate turpis,
+                        sapien facilisis purus laoreet. Ut consectetur volutpat cursus phasellus elit consectetur.
+                        Dapibus nostra ornare integer; sodales congue proin.
+                    </p>
+                    <p>Parturient lacus aenean consequat ad nisi maximus. Consequat justo nascetur faucibus, libero eros
+                        sociosqu. Est amet torquent hendrerit augue accumsan ut ac duis. Nec aliquet vulputate turpis,
+                        sapien facilisis purus laoreet. Ut consectetur volutpat cursus phasellus elit consectetur.
+                        Dapibus nostra ornare integer; sodales congue proin.
+                    </p>
+                    <p>Parturient lacus aenean consequat ad nisi maximus. Consequat justo nascetur faucibus, libero eros
+                        sociosqu. Est amet torquent hendrerit augue accumsan ut ac duis. Nec aliquet vulputate turpis,
+                        sapien facilisis purus laoreet. Ut consectetur volutpat cursus phasellus elit consectetur.
+                        Dapibus nostra ornare integer; sodales congue proin.
+                    </p>
+                    <p>Parturient lacus aenean consequat ad nisi maximus. Consequat justo nascetur faucibus, libero eros
+                        sociosqu. Est amet torquent hendrerit augue accumsan ut ac duis. Nec aliquet vulputate turpis,
+                        sapien facilisis purus laoreet. Ut consectetur volutpat cursus phasellus elit consectetur.
+                        Dapibus nostra ornare integer; sodales congue proin.
+                    </p>
+                    <p>Parturient lacus aenean consequat ad nisi maximus. Consequat justo nascetur faucibus, libero eros
+                        sociosqu. Est amet torquent hendrerit augue accumsan ut ac duis. Nec aliquet vulputate turpis,
+                        sapien facilisis purus laoreet. Ut consectetur volutpat cursus phasellus elit consectetur.
+                        Dapibus nostra ornare integer; sodales congue proin.
+                    </p>
+
+                </div>
+
+               <!--  <div id="fixed">
+                    <p>Parturient lacus aenean consequat ad nisi maximus. Consequat justo nascetur faucibus, libero eros
+                        sociosqu. Est amet torquent hendrerit augue accumsan ut ac duis. Nec aliquet vulputate turpis,
+                        sapien facilisis purus laoreet. Ut consectetur volutpat cursus phasellus elit consectetur.
+                        Dapibus nostra ornare integer; sodales congue proin.</p>
+
+                </div>
+
+
+                <div id="sticky">
+                    <p>Parturient lacus aenean consequat ad nisi maximus. Consequat justo nascetur faucibus, libero eros
+                        sociosqu. Est amet torquent hendrerit augue accumsan ut ac duis. Nec aliquet vulputate turpis,
+                        sapien facilisis purus laoreet. Ut consectetur volutpat cursus phasellus elit consectetur.
+                        Dapibus nostra ornare integer; sodales congue proin.</p>
+
+                </div>
+ -->
+               
+
+            </div>
+
+</body>
+
+</html>
