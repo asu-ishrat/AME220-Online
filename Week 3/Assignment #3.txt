@@ -2,7 +2,9 @@ Assignment #3
 
 Rubric: 
 
-10pts for students completing the assignment. Take the one-container handout (one-container.html) and convert the spacing from margins to position: absolute. 
+1pt: posting for code review (use your peers to help with the extra credit!) 
+
+9pts for students completing the assignment. Take the one-container handout (one-container.html) and convert the spacing from margins to position: absolute. 
 
 2pts extra credit for figuring out why a:hover doesn't work.  (https://asu-ishrat.github.io/css.html for expected behavior) 
 
