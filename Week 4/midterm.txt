@@ -1,22 +1,13 @@
-Midterm
-
-Grading Rubric 
-
-1 point:  Student submits a sketch of their approach 
-1 point:  Student submits assignment 
-1 point:  Student participants in code review 
-5 points: Student demonstrates the below criteria 
-7 points: Student showcases creativity in applying CSS and HTML. Some examples include: 
-
-* Unified style guide across multiple elements, psuedo-elements 
-* The use of semantic elements to clearly define areas such as  articles, images, web fonts  
-* The use of buttons, inputs and other CSS elements applied to it 
-
-Basically - did you put in effort into this project. 
+The Midterm 
 
 
-Midterm Project
- 
+
+
+Hi guys, we are here. The midterm. The big project.   The video below goes through what I want to see, and to discuss some concerns that you might have because of some nebulous wording.  
+
+
+
+
 The goal of this assignment is to determine your level of understanding of HTML and CSS.  That said, it's a good chance to flex what you have learned and to gain some expertise with designing your own expertise.    The web app must not be longer than 3 pages 
 
 Create a web app with multiple STATIC pages. 
@@ -27,9 +18,24 @@ Create a web app with multiple STATIC pages. 
 4. Have multiple components (sections, divs etc...)
 5. Each component should be represented in the CSS. 
 
-These are the base requirements for this assignment. 
 
-7 Points: Implementation of multiple CSS / HTML Components 
+
+
+1 point:  Student submits a sketch of their approach 
+1 point:  Student submits assignment 
+1 point:  Student participants in code review 
+5 points: Student demonstrates the below criteria 
+7 points: Student showcases creativity in applying CSS and HTML. Some examples include: 
+
+* Unified style guide across multiple elements, psuedo-elements 
+* The use of semantic elements to clearly define areas such as  articles, images, web fonts 
+* The use of buttons, inputs and other CSS elements applied to it 
+
+Basically - did you put in effort into this project. 
+
+
+
+
 
 Inspiration: 
 
@@ -38,4 +44,4 @@ CSS: https://www.w3schools.com/css/default.asp
 
 For maximum points in this section, think about websites that you visit.  Stylize buttons, links, lists, divs, do they have borders? Rounded images? What about their navigation bars? How do they use pseudoclasses to create cool interactions?  Do they use a Google Font API? 
 
-Extra Credit 2pts: include ANY javascript into this. Alerts, timezone, location APIs? 
+Extra Credit 2pts: include ANY animations into this!  hint: https://webcode.tools/css-generator/keyframe-animation this website is going to be your best friend :) just cite it 
