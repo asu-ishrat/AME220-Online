@@ -9,7 +9,7 @@ Grading Rubric 
 7 points: Student showcases creativity in applying CSS and HTML. Some examples include: 
 
 * Unified style guide across multiple elements, psuedo-elements 
-* The use of semantic elements to clearly define areas such as videos, articles, images and media 
+* The use of semantic elements to clearly define areas such as  articles, images, web fonts  
 * The use of buttons, inputs and other CSS elements applied to it 
 
 Basically - did you put in effort into this project. 
@@ -22,9 +22,9 @@ The goal of this assignment is to determine your level of understanding of HTML 
 Create a web app with multiple STATIC pages. 
 
 1. Follow the correct HTML structure 
-2. Have a LINKED CSS 
+2. Have a CSS style (either linked or internal using the <style tag>)  
 3. Mobile Responsive 
-4. Have multiple components (sections, media, divs etc...)
+4. Have multiple components (sections, divs etc...)
 5. Each component should be represented in the CSS. 
 
 These are the base requirements for this assignment. 
