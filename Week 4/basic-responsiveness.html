@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Responsiveness 101</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        /* 
+        
+        REM uses the ROOT selector's default  OR 
+        
+      
+        * {
+
+            font-size: 16px; 
+
+        } 
+            
+        everything scales to a factor of 16 */
+
+        * {
+
+            font-size: 20px; 
+        }
+
+        body { 
+            background-color: azure;
+            font-size: 2rem; 
+        }
+
+        /* EM looks to the sizing of the PARENT element to determine the size of the CHILD */
+
+        #one { 
+            display: block;
+            width: 1000px; 
+            height: 500px; 
+            background-color: blue;
+            color: white; 
+            font-size: 2em;
+        }
+
+        /* when we are on the desktop, do not show this element with the id "two" */
+
+        #two { 
+
+            display: none; 
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            * {
+                font-size: 16px; 
+            }
+
+            /*when we are on mobile, do not show id "one" */
+
+            #one{
+               display: none; 
+            }
+
+            #two { 
+            display: block;
+            width: 500px; 
+            height: 500px; 
+            background-color: chartreuse;
+            color: black; 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 2rem;}
+            
+        }
+
+        
+    </style>
+
+
+</head>
+<body>
+    
+    <div id="one">
+        lorem ipsum dolor 
+    </div>
+
+    <div id="two">
+        Chase ball of string eat plants, meow, and throw up because I ate plants going to catch the red dot today going to catch the red dot today. I could pee on this if I had the energy. Chew iPad power cord steal the warm chair right after you get up for purr for no reason leave hair everywhere, decide to want nothing to do with my owner today.
+
+
+    </div>
+</body>
+</html>
