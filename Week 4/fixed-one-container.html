@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Siggy the Kitty</title>
+    <style>
+      
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+        body {
+            background-color: #000000;
+        }
+
+        .container{
+            height: 100vh; 
+            width: 786px; 
+            margin: 0 auto;
+            z-index: 0;
+        }
+
+        #siggy-image{
+            position: relative;
+            background-image: url('./updatedSiggy.png');
+            width: 400px; 
+            height: 400px; 
+            border-radius: 50%;
+            background-size: cover;
+            margin: 129px auto;
+            z-index: 2; 
+        }
+
+        .content{
+            background-color: #E2C800;
+            width: 786px; 
+            height: 100%; 
+            margin-top: -210px;
+            margin-left: auto; 
+            margin-right: auto;
+            z-index: 1; 
+            border-radius: 45px 45px 0px 0px;
+            padding: 20px;
+        }
+
+        nav {
+
+            position: relative; 
+            top: 150px;
+            width: 70%;
+            margin: auto;
+            height: 300px;
+
+        }
+
+        a button {
+            background-color: #000000;
+            color: #FFFFFF; 
+            font-family: "Playfair Display", serif;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 400;
+            text-transform: lowercase;
+            text-decoration: none;
+            border-style: none;
+            border-radius: 25px;
+            padding: 35px 60px; 
+        }
+
+ 
+
+         a:hover button {
+
+            background-color: #E2C800;
+            color: #000000; 
+            font-family: "Playfair Display", serif;
+            font-size: 20px; 
+            font-style: italic; 
+            font-weight: 800; 
+            letter-spacing: 4px;
+            text-decoration: none; 
+            border-color: #000000;
+            border-width: 1px;
+            border-style: solid;
+        }
+
+        #siggy {
+            background-color: inherit; 
+            color: #000000;
+            font-family: "Playfair Display", serif;
+            font-size: 64px;
+            font-style: italic;
+            font-weight: 800;
+            line-height: normal;
+        }
+
+        #about { 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #about::first-letter{
+            font-family: "Playfair Display", serif;
+            font-size: 48px;
+            font-weight: 800;
+            font-style: oblique;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="siggy-image"></div>
+        <div class="content">
+            <nav>
+                <a href="#about"><button>About</button></a>
+                <a href="#why"><button>Why</button></a>
+                <a href="#contact"><button>Contact</button></a>
+            </nav>
+
+            <p id="siggy">Siggy the Singularity</p>
+
+            <section id="about">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </section>
+        </div>
+
+    </div>
+</body>
+
+</html>
