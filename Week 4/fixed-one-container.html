@@ -2,14 +2,24 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siggy the Kitty</title>
     <style>
       
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+        * {
+            font-size: 20px;
+        }
+
 
         body {
             background-color: #000000;
+        }
+
+        .nav-mobile { 
+
+            display: none;
         }
 
         .container{
@@ -33,7 +43,6 @@
         .content{
             background-color: #E2C800;
             width: 786px; 
-            height: 100%; 
             margin-top: -210px;
             margin-left: auto; 
             margin-right: auto;
@@ -56,7 +65,7 @@
             background-color: #000000;
             color: #FFFFFF; 
             font-family: "Playfair Display", serif;
-            font-size: 20px;
+            font-size: 1rem;
             font-style: italic;
             font-weight: 400;
             text-transform: lowercase;
@@ -87,7 +96,7 @@
             background-color: inherit; 
             color: #000000;
             font-family: "Playfair Display", serif;
-            font-size: 64px;
+            font-size: 4rem;
             font-style: italic;
             font-weight: 800;
             line-height: normal;
@@ -99,15 +108,118 @@
 
         #about::first-letter{
             font-family: "Playfair Display", serif;
-            font-size: 48px;
+            font-size: 3rem;
             font-weight: 800;
             font-style: oblique;
 
         }
+
+
+    @media only screen and (max-width: 450px) {
+
+        * { 
+
+            font-size: 16px;
+        }
+
+        .container{
+            position: absolute; 
+            top: 0px; 
+            left: 0px;
+            width: 100vw; 
+            height: 100vh; 
+            z-index: -1;
+        }
+
+        #siggy-image{
+            position: relative;
+            background-image: url('./updatedSiggy.png');
+            width: 200px; 
+            height: 200px; 
+            border-radius: 50%;
+            background-size: cover;
+            margin: 129px auto;
+            z-index: 2; 
+        }
+
+        nav { 
+
+            display: none;
+        }
+
+        .nav-mobile{
+            display: block; 
+            position: fixed; 
+            bottom: 0px; 
+            left: 0%; 
+            width: 100vw; 
+            height: 50px; 
+            margin: auto;
+            z-index: 1;
+
+        }
+
+        .nav-mobile >  a button {
+            background-color: #000000;
+            color: #FFFFFF; 
+            font-family: "Playfair Display", serif;
+            font-size: 1rem;
+            font-style: italic;
+            font-weight: 400;
+            text-transform: lowercase;
+            text-decoration: none;
+            border-style: none;
+            border-radius: 25px;
+            padding: 10px; 
+        }
+
+ 
+
+        .nav-mobile > a:hover button {
+
+            background-color: #E2C800;
+            color: #000000; 
+            font-family: "Playfair Display", serif;
+            font-size: 20px; 
+            font-style: italic; 
+            font-weight: 800; 
+            letter-spacing: 4px;
+            text-decoration: none; 
+            border-color: #000000;
+            border-width: 1px;
+            border-style: solid;
+        }
+
+        .content { 
+            width: 100%; 
+            background-color: #000000;
+            color: white;
+            padding: 5px;
+        }
+
+        #siggy {
+            color: white;
+            font-family: "Playfair Display", serif;
+            font-size: 3rem;
+            font-style: italic;
+            font-weight: 800;
+            line-height: normal;
+            margin-top: 100px;
+        }
+
+        
+    }
     </style>
 </head>
 
 <body>
+    <div class="nav-mobile">
+        <a href="#about"><button>About</button></a>
+        <a href="#why"><button>Why</button></a>
+        <a href="#contact"><button>Contact</button></a>
+    </div>
+
+
     <div class="container">
         <div id="siggy-image"></div>
         <div class="content">
