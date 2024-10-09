@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Advanced CSS</title>
+    <style>
+
+        /*https://www.w3schools.com/css/css3_shadows_box.asp */ 
+        body > div {
+
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6); 
+            border-radius: 5px;
+
+        }
+
+        .video{
+            position: absolute;
+            top: 0px; 
+            left: 0px; 
+            height: 500px; 
+            width: 500px; 
+            background-color: black;
+            z-index: -2; 
+        }
+
+        #space-video {
+            position: absolute; 
+            top: 0px; 
+            left: 0px; 
+            height: 500px; 
+            width: 500px; 
+            object-fit: cover;
+            z-index: -1; 
+        }
+
+        #overlay {
+            /*gradient reference: https://www.w3schools.com/css/css3_gradients.asp*/
+            background-color: grey; 
+            /* for browsers that don't support gradients*/ 
+            background-image: linear-gradient(rgba(0,0,0,1), rgba(0, 0, 0, 0.673), rgba(0,0,0,0));
+            /* opacity: */
+            opacity: .6;
+            /* reference material: https://www.w3schools.com/cssref/pr_mix-blend-mode.php */ 
+            mix-blend-mode: color;
+            /*reference for positioning: https://www.geeksforgeeks.org/difference-between-relative-and-absolute-position-in-css/*/ 
+            position: absolute; 
+            top: 0px; 
+            left: 0px; 
+            height: 500px; 
+            width: 500px; 
+            z-index: 0; 
+        }
+
+        #content {
+            margin: 0;
+            position: relative; 
+            top: 50%; 
+            left: 50%; 
+            width: 50%; 
+
+            /*reference for transforms: https://www.w3schools.com/cssref/css3_pr_transform.php*/ 
+            transform: translate(-50%,-50%);
+
+            z-index: 1; 
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white; 
+            font-size: 24px; 
+            
+
+    
+
+        }
+
+
+        .transitions{
+            position: absolute; 
+            top: 0px; 
+            left: 510px; 
+            width: 550px; 
+            height: 550px;
+            background-color: aliceblue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        
+        /*transition https://www.w3schools.com/css/css3_transitions.asp*/ 
+
+        button {
+            background-color: red;
+            border-style: none;
+            padding: 10px; 
+            border-radius: 5px; 
+            color: white; 
+            transition-property: background;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+            transition-delay: 1s;
+            /*transition: all 2s ease-in;*/
+            
+        }
+
+        button:hover{
+            background-color: black;
+            padding: 40px;
+            border-style: dashed;
+            border-color: white;
+            
+        }
+
+        /*animations: https://www.w3schools.com/css/css3_animations.asp */ 
+        /*transform reference: https://www.w3schools.com/css/css3_2dtransforms.asp*/
+
+        .animations{ 
+            position: absolute; 
+            top: 550px; 
+            left: 0px;
+            width: 550px; 
+            height: 550px;
+            background-color: blue;
+            animation-name: sample;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            z-index: 0;
+        }
+
+        .animations-layer2{
+            position: absolute; 
+            top: 550px; 
+            left: 0px;
+            width: 550px; 
+            height: 550px;
+            background-color: red;
+            animation-name: sample2;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            z-index: 1; 
+
+        }
+
+        @keyframes sample {
+            0% {transform: rotate(0deg);}
+            100% {transform: rotate(360deg);}
+        }
+
+        @keyframes sample2 {
+            0% {transform: rotate(90deg);}
+            100% {transform: rotate(360deg);}
+        }
+
+
+       
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <!--references: 
+    
+    https://www.pexels.com/: free video 
+    https://unsplash.com/: free stock images
+    
+    video html element: https://www.w3schools.com/html/html5_video.asp -->
+
+
+
+    <div class="video">
+       <video id="space-video" autoplay="true" loop="true" muted="true">
+            <source src="./7615696-uhd_3840_2160_30fps.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+
+        <div id="overlay"></div>
+         <div id="content">
+            SPACE SPACE MAGIC
+          </div> 
+
+    </div>
+
+    <div class="transitions">
+
+        Fun with Transitions! 
+
+        <p></p>
+
+        <button>Hover over me!</button>
+
+    </div>
+
+    <div class="animations">
+
+    </div>
+
+    <div class="animations-layer2"></div>
+
+    
+
+</body>
+</html>
