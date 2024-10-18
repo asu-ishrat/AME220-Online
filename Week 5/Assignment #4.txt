@@ -11,7 +11,7 @@ Include a Script or a Simple API into your website. This assignment is meant to 
 
 The Final Project is all about interactivity.   Please use the handout called "homework.js" and add the following: 
 
-1.  It greets the user with their name (1pt) (hint: use ALERT to get their name) 
+1.  It greets the user with their name (1pt) (hint: use PROMPT to get their name) 
 2. When a user presses a button, it will call a function to show a location 
 3.  Shows their location: https://www.w3schools.com/html/html5_geolocation.aspLinks to an external site.  and show a local time based on location 
 4.  update the HTML for this. 
