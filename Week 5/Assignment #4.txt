@@ -1,12 +1,10 @@
 Rubric: 
 
+1 point: quick design for how this will look
 2 points: Student has submitted code
 2 points: Student has shared their code with their peers for review
-0-6 points: Student’s assignment has demonstrated deliverables of the assignment
+0-5 points: Student’s assignment has demonstrated deliverables of the assignment
 
- 
-
-There is no need for a design for this homework assignment since I'm more or less asking you to put together a set of statements! 
 
 
 Include a Script or a Simple API into your website. This assignment is meant to be a precursor to your final assignment to get you thinking about Assignment #5 - which is the pitch for your Final Project. 
@@ -14,9 +12,9 @@ Include a Script or a Simple API into your website. This assignment is meant to 
 The Final Project is all about interactivity.   Please use the handout called "homework.js" and add the following: 
 
 1.  It greets the user with their name (1pt) (hint: use ALERT to get their name) 
-2.  Shows their location  (1pt)  https://www.w3schools.com/html/html5_geolocation.aspLinks to an external site.  and show a local time based on location 
-4. When the user presses a button, have it change images (hint: use practical example for inspiration) 
-5. Make a small calculator (hint: see the practical!) 
+2. When a user presses a button, it will call a function to show a location 
+3.  Shows their location: https://www.w3schools.com/html/html5_geolocation.aspLinks to an external site.  and show a local time based on location 
+4.  update the HTML for this. 
 
  
 
