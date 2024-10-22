@@ -7,12 +7,12 @@ The Final Project is a culimination of the entire class. This assignment is to s
 The Final Project is a web application of your choosing. It is worth 25 points. The web application has to be:
 
 1. Multiple pages using the correct document structure (5pts)
-2. Have AT LEAST 2 Pages
+2. Have AT MOST 3 Pages
 3. Store variables and use them to affect/effect the DOM
-4. User interactivity - button clicks, calling REST APIs, using CDNs and libraries
-5. User interactions change the experience of the website
+4. User interactivity - button clicks that impact the dom, calling a rest API 
+5. Writing custom functions that impact how the website changes (ex: an event function that loops through multiple colors on hover etc...)
 
-EXTRA CREDIT: you bundle it with Electron.js
+EXTRA CREDIT: ADDING ADDITIONAL LIBRARIES p5, three.js, electron, etc...  ()
 
 This Assignment:
 

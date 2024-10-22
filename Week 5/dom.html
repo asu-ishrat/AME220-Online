@@ -3,16 +3,70 @@
 <head>
     <meta charset="UTF-8" />
     <title>Document Object Model Sample</title>
-</head>
-<body>
 
-    <button id="myBtn" onclick='someName(this)'>Try it</button>
+  <script>
+    function getDateTime() {
+
+    letDateTime = Date(); 
+    const getDivId = document.getElementById("dateTime")
+    const dateHeader = document.createElement("h1"); 
+    dateHeader.innerHTML = `Hey there! The date today is ${DateTime}`
+    document.body.appendChild(dateHeader); 
+    console.log("I ran!")
+
+
+    }
+    </script>
+</head>   
+<body onload="getDateTime()">
+
+    <div id="dateTime"></div>
+
+    <h1 id="header" style="background-color: aqua; color: blue; letter-spacing: 10px;" onclick="someChange(this)">HI THERE</h1>
+
+
 
     <script>
-        function someName(id){
-            document.getElementById("myBtn").innerHTML="I did it!"
+        
+        /*
+        //methods are like mini functions that need to be assigned to a variable to change the property 
+        const header = document.createElement("h1")
+        header.innerHTML = "Hi there!"
+        document.body.append(header)
+        header.setAttribute("style", "background-color: aqua; color: blue; letter-spacing: 10px;")
+        // <h1 style="background-color: aqua; color: blue; letter-spacing: 10px;">
+            // in functions   function name(parameter, parameter)
+        header.style.fontSize = "72px"*/ 
+
+        function getDateTime(){ 
+            
+            // create date object 
+            const dateAndTime = Date(); 
+
+            // let's get our div object ready to work with 
+
+            const parentDiv = document.getElementById("dateTime"); 
+
+            // lets create our h1 object 
+
+            const h1Object = document.createElement("h1"); 
+
+            // lets append our H1 element as a child within the parent Div 
+
+            parentDiv.appendChild(h1Object); 
+
+            h1Object.innerHTML = `Hello there! The date is ${dateAndTime}`
+            
+            
         }
+
+        function someChange(id) {
+            id.style.textTransform = "lowercase"
+        }
+
+
+
+        
     </script>
-   
 </body>
 </html>
