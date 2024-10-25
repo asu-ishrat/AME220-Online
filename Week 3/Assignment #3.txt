@@ -10,3 +10,5 @@ Rubric:
 
 Hint:  use the measurements found in this file:  https://www.figma.com/design/xJBZ6xgaZKWiOh0Cvc8K9W/CSS?node-id=0-1&t=la68CKYDFZ2tXd8p-1 
 
+Also, please do not overwrite your files! Please create a new file to your github.io repo (you can name it whatever you want)
+
