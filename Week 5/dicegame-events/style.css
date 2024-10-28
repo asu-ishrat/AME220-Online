@@ -1,0 +1,152 @@
+/* overflow reference: https://www.w3schools.com/cssref/pr_pos_overflow.php */ 
+
+body { 
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+    overflow-x: hidden; 
+}
+
+.container{ 
+    width: 90vw; 
+    height: 90vh;
+    display: grid;   
+    grid-template-columns: 50% 50%;  
+}
+
+.container > div { 
+    margin-right: 51px; 
+   
+}
+
+
+
+.interactivity{
+    position: relative;
+    top: 0px;
+    margin-top: 89px;
+
+}
+
+
+ .narrative {
+    position: relative; 
+    top: 0px;
+    padding: 86px 45px;
+    overflow-y: auto;
+    border: 5px solid #FFF;
+    border-radius: 30px;
+    margin-top: 89px;
+    color: #FFF;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+
+
+h1{
+    color: #FFF;
+    font-family: "Pirata One";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0px;
+
+}
+
+#character-name { 
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 25px;
+}
+
+#buttonGroup{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 27px; 
+}
+
+#buttonGroup > button{
+    margin-left: 12px; 
+    margin-right: 12px;
+}
+
+
+input[type="text"]{
+
+    width: 387px; 
+    height: 55px; 
+    background-color: black; 
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    color: white; 
+    text-align: center;
+    font-family: "Pirata One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#generate{
+    background-color:white;
+    color: black; 
+    border-radius: 20px; 
+    border: 0px solid;  
+    padding: 4px 20px; 
+    text-align: center;
+    font-family: "Pirata One";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#save{
+    background-color:black;
+    color: white; 
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: #000;
+    padding: 4px 20px; 
+    text-align: center;
+    font-family: "Pirata One";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#d20{
+
+    width: 281.25px;
+    height: 300.059px;
+    margin: 32px auto;
+
+}
+
+
+
+#result{
+    color: #FFF;
+    text-align: center;
+    font-family: "Pirata One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+ 
