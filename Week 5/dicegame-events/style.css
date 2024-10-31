@@ -60,6 +60,19 @@ h1{
 
 }
 
+h2{
+    color: #FFF;
+    font-family: "Pirata One";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px; 
+
+}
+
 #character-name { 
 
     display: flex;
