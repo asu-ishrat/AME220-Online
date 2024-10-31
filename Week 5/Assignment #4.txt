@@ -1,21 +1,14 @@
-Rubric: 
+Rubric: 
 
-1 point: quick design for how this will look
+1 point: quick design for how this will look (this is a sketch in Google Slides, or a fully fledged design document in Figma - just show me 
 2 points: Student has submitted code
 2 points: Student has shared their code with their peers for review
 0-5 points: Student’s assignment has demonstrated deliverables of the assignment
 
+Include a Script into your website. This assignment is meant to be a precursor to your final assignment to get you thinking about Assignment #5 - which is the pitch for your Final Project. 
 
+The Final Project is all about interactivity.   Please create an easy app of your choice.  For full points (5), it MUST 
 
-Include a Script or a Simple API into your website. This assignment is meant to be a precursor to your final assignment to get you thinking about Assignment #5 - which is the pitch for your Final Project. 
-
-The Final Project is all about interactivity.   Please use the handout called "homework.js" and add the following: 
-
-1.  It greets the user with their name (1pt) (hint: use PROMPT to get their name) 
-2. When a user presses a button, it will call a function to show a location 
-3.  Shows their location: https://www.w3schools.com/html/html5_geolocation.aspLinks to an external site.  and show a local time based on location 
-4.  update the HTML for this. 
-
- 
-
-If you've followed along the lecture, we have already set up the HTML for this. We just need to update the Javascript. 
+1. It must have a user interface in HTML 
+2. Any output you have must be shown on the HTML side (no console.log for end-users, it's fine for debugging) 
+3.  Functions 
